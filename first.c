@@ -2,8 +2,11 @@
 int main()
 {
   int a,b,c;
-a=10,b=20;
-c=a+b;
-printf("The sum of two digits is : %d\n",c)
+  printf("Enter first number: \n");
+    scanf("%d", &a);
+    printf("Enter second number \n");
+    scanf("%d", &b);
+  c = a+b;
+printf("The sum of two digits is : %d\n",c);
   return 0;
 }
